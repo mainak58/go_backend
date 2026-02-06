@@ -96,3 +96,4 @@ func (j *JobService) Stop() {
 	close(j.low)
 	j.wg.Wait()
 }
+
