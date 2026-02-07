@@ -3,6 +3,7 @@ module github.com/mainak58/go_backend
 go 1.25.6
 
 require (
+	github.com/clerk/clerk-sdk-go/v2 v2.5.1
 	github.com/go-playground/validator/v10 v10.30.1
 	github.com/jackc/pgx-zerolog v0.0.0-20230315001418-f978528409eb
 	github.com/jackc/pgx/v5 v5.8.0
@@ -16,6 +17,7 @@ require (
 
 require (
 	github.com/gabriel-vasile/mimetype v1.4.12 // indirect
+	github.com/go-jose/go-jose/v3 v3.0.4 // indirect
 	github.com/go-playground/locales v0.14.1 // indirect
 	github.com/go-playground/universal-translator v0.18.1 // indirect
 	github.com/go-viper/mapstructure/v2 v2.5.0 // indirect
